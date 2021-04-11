@@ -105,7 +105,10 @@ void import_contents(char **backup) {
             for (int i = 0; i < strlen(string); ++i) {
                 if (':' == string[i]) {
                     user_end = i - 1;
-                    printf("%c %c\n", string[user_begin], string[user_end]);
+                    char *user_name = calloc(user_end - user_begin + 1 + 1, sizeof(char));
+                    strncpy(user_name, &string[user_begin], user_end - user_begin + 1);
+
+                    printf("'%s'\n", user_name);
                 }
             }
         }
