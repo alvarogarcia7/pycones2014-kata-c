@@ -84,6 +84,7 @@ char **export_contents() {
         lines[i] = calloc(line_size, sizeof(char));
 
         strcpy(lines[i], registered_users[i]);
+        strcpy(&lines[i][strlen(registered_users)-1], ": ");
     }
 
     return lines;
