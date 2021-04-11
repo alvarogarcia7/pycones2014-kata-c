@@ -85,7 +85,9 @@ char **export_contents() {
 
         strcpy(lines[i], registered_users[i]);
         strcpy(&*(*(lines+i)+strlen(lines[i])), ": ");
-        strcpy(&*(*(lines+i)+strlen(lines[i])), "juan,");
+        for (int j = 0; j < followees[i]; ++j) {
+            strcpy(&*(*(lines+i)+strlen(lines[i])), follows[i][j]);
+        }
     }
 
     return lines;
