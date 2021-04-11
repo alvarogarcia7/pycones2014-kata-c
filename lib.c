@@ -99,7 +99,7 @@ char **export_contents() {
 void import_contents(char **backup) {
     int line = 0;
     char *string = backup[line];
-    while (strlen(string) > 0) {
+    while (string != NULL) {
         {
             int user_begin = 0, user_end = 0;
             char *user_name;
@@ -125,6 +125,8 @@ void import_contents(char **backup) {
                     printf("Followee: '%s'\n", followee_name);
 
                     follow_user(user_name, followee_name);
+
+                    free(followee_name);
 
                     user_begin = i + 1;
                 }
