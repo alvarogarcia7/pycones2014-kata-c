@@ -67,10 +67,9 @@ static void persist_users_and_followees(void **state){
 static void import_users_and_followees(void **state){
     register_clear();
 
-    char *backup[3] = {
+    char *backup[2] = {
             "pepe: juan,jose,",
             "juan: pepe,miguel,"
-            "\0"
     };
 
     for (int i = 0; i < sizeof(backup) / sizeof(char *); ++i) {
