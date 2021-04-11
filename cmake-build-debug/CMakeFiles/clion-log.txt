@@ -1,17 +1,5 @@
 "/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/alvaro/Documents/project/pycones2014-kata
 -- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
 -- Configuring done
-CMake Error at CMakeLists.txt:7 (add_library):
-  Cannot find source file:
-
-    lib.c
-
-  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
-  .hpp .hxx .in .txx
-
-
-CMake Error at CMakeLists.txt:7 (add_library):
-  No SOURCES given to target: lib
-
-
-CMake Generate step failed.  Build files cannot be regenerated correctly.
+-- Generating done
+-- Build files have been written to: /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug

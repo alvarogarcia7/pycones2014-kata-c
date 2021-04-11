@@ -5,7 +5,7 @@
 		<Option title="pycones2014_kata"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\_deps\;CMake Files\cmake-build-debug\_deps\cmocka-src\;CMake Files\cmake-build-debug\_deps\cmocka-src\cmake\;CMake Files\cmake-build-debug\_deps\cmocka-src\cmake\Modules\;CMake Files\cmake-build-debug\_deps\cmocka-src\include\;CMake Files\cmake-build-debug\_deps\cmocka-src\src\;CMake Files\cmake-build-debug\_deps\cmocka-src\doc\;CMake Files\tests\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug"/>
@@ -17,11 +17,41 @@
 					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="rebuild_cache">
+			<Target title="install/local">
 				<Option working_dir="/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
 					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -37,28 +67,38 @@
 					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="pycones2014_kata">
-				<Option output="/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/pycones2014_kata" prefix_auto="0" extension_auto="0"/>
+			<Target title="rebuild_cache">
 				<Option working_dir="/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
+				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/Makefile&quot;  VERBOSE=1 pycones2014_kata"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
 					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="pycones2014_kata/fast">
-				<Option output="/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/pycones2014_kata" prefix_auto="0" extension_auto="0"/>
+			<Target title="package_source">
+				<Option working_dir="/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/Makefile&quot;  VERBOSE=1 package_source"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="package">
+				<Option working_dir="/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/Makefile&quot;  VERBOSE=1 package"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exe">
+				<Option output="/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -71,18 +111,329 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/Makefile&quot;  VERBOSE=1 pycones2014_kata/fast"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/Makefile&quot;  VERBOSE=1 exe"/>
 					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exe/fast">
+				<Option output="/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/Makefile&quot;  VERBOSE=1 exe/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lib">
+				<Option output="/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/liblib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/Makefile&quot;  VERBOSE=1 lib"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lib/fast">
+				<Option output="/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/liblib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/Makefile&quot;  VERBOSE=1 lib/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="unit_tests">
+				<Option output="/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/tests/unit_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-src/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 unit_tests"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="unit_tests/fast">
+				<Option output="/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/tests/unit_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-src/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 unit_tests/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dist">
+				<Option working_dir="/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-build/Makefile&quot;  VERBOSE=1 dist"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Nightly">
+				<Option working_dir="/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-build/Makefile&quot;  VERBOSE=1 Nightly"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Continuous">
+				<Option working_dir="/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-build/Makefile&quot;  VERBOSE=1 Continuous"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Experimental">
+				<Option working_dir="/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-build/Makefile&quot;  VERBOSE=1 Experimental"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cmocka-static">
+				<Option output="/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-build/src/libcmocka-static.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-build/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-build/src"/>
+					<Add directory="/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-src/src"/>
+					<Add directory="/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-build"/>
+					<Add directory="/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-src/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-build/src/Makefile&quot;  VERBOSE=1 cmocka-static"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-build/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-build/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-build/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cmocka-static/fast">
+				<Option output="/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-build/src/libcmocka-static.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-build/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-build/src"/>
+					<Add directory="/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-src/src"/>
+					<Add directory="/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-build"/>
+					<Add directory="/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-src/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-build/src/Makefile&quot;  VERBOSE=1 cmocka-static/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-build/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-build/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-build/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cmocka">
+				<Option output="/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-build/src/libcmocka.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-build/src"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-build/src"/>
+					<Add directory="/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-src/src"/>
+					<Add directory="/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-build"/>
+					<Add directory="/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-src/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-build/src/Makefile&quot;  VERBOSE=1 cmocka"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-build/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-build/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-build/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cmocka/fast">
+				<Option output="/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-build/src/libcmocka.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-build/src"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-build/src"/>
+					<Add directory="/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-src/src"/>
+					<Add directory="/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-build"/>
+					<Add directory="/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-src/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-build/src/Makefile&quot;  VERBOSE=1 cmocka/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-build/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-build/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-build/src/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-src/src/cmocka.c">
+			<Option target="cmocka-static"/>
+			<Option target="cmocka"/>
+		</Unit>
+		<Unit filename="/Users/alvaro/Documents/project/pycones2014-kata/lib.c">
+			<Option target="lib"/>
+		</Unit>
+		<Unit filename="/Users/alvaro/Documents/project/pycones2014-kata/lib.h">
+			<Option target="lib"/>
+		</Unit>
 		<Unit filename="/Users/alvaro/Documents/project/pycones2014-kata/main.c">
-			<Option target="pycones2014_kata"/>
+			<Option target="exe"/>
+		</Unit>
+		<Unit filename="/Users/alvaro/Documents/project/pycones2014-kata/tests/test.c">
+			<Option target="unit_tests"/>
 		</Unit>
 		<Unit filename="/Users/alvaro/Documents/project/pycones2014-kata/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\cmocka-src\"/>
+		</Unit>
+		<Unit filename="/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-src/CPackConfig.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\cmocka-src\"/>
+		</Unit>
+		<Unit filename="/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-src/CTestConfig.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\cmocka-src\"/>
+		</Unit>
+		<Unit filename="/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-src/CompilerChecks.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\cmocka-src\"/>
+		</Unit>
+		<Unit filename="/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-src/ConfigureChecks.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\cmocka-src\"/>
+		</Unit>
+		<Unit filename="/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-src/DefineOptions.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\cmocka-src\"/>
+		</Unit>
+		<Unit filename="/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-src/cmocka-config.cmake.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\cmocka-src\"/>
+		</Unit>
+		<Unit filename="/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-src/cmocka.pc.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\cmocka-src\"/>
+		</Unit>
+		<Unit filename="/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-src/config.h.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\cmocka-src\"/>
+		</Unit>
+		<Unit filename="/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-src/cmake/Modules/AddCCompilerFlag.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\cmocka-src\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-src/cmake/Modules/AddCMockaTest.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\cmocka-src\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-src/cmake/Modules/CheckCCompilerFlagSSP.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\cmocka-src\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-src/cmake/Modules/DefineCMakeDefaults.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\cmocka-src\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-src/cmake/Modules/DefineCompilerFlags.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\cmocka-src\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-src/cmake/Modules/DefinePlatformDefaults.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\cmocka-src\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-src/cmake/Modules/MacroEnsureOutOfSourceBuild.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\cmocka-src\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-src/include/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\cmocka-src\include\"/>
+		</Unit>
+		<Unit filename="/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-src/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\cmocka-src\src\"/>
+		</Unit>
+		<Unit filename="/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/_deps/cmocka-src/doc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\cmocka-src\doc\"/>
+		</Unit>
+		<Unit filename="/Users/alvaro/Documents/project/pycones2014-kata/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>
