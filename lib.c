@@ -74,11 +74,22 @@ char **user_is_following(char *username) {
     return NULL;
 }
 
-char **export_contents(){
-    return NULL;
+char **export_contents() {
+    char **lines = calloc(max_index + 1, sizeof(char *));
+    for (int i = 0; i < max_index; ++i) {
+        int line_size = strlen(registered_users[i]) + strlen(": ");
+        for (int j = 0; j < followees[i]; ++j) {
+            line_size += strlen(follows[i][j]) + strlen(",");
+        }
+        lines[i] = calloc(line_size, sizeof(char));
+
+        strcpy(lines[i], registered_users[i]);
+    }
+
+    return lines;
 }
 
-void print_debug_state(){
+void print_debug_state() {
     printf("Max index: %d\n", max_index);
     for (int i = 0; i < MAX_USERS && i < max_index; ++i) {
         printf("Registered: '%s'\n", registered_users[i]);

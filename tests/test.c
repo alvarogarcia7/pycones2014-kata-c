@@ -58,8 +58,8 @@ static void persist_users_and_followees(void **state){
     follow_user("juan", "miguel");
 
     char **export = export_contents();
-    assert_string_equal(export[0], "pepe: juan,jose");
-    assert_string_equal(export[1], "juan: pepe,miguel");
+    assert_string_equal(export[0], "pepe: juan,jose,");
+    assert_string_equal(export[1], "juan: pepe,miguel,");
     assert_null(export[2]);
 }
 
