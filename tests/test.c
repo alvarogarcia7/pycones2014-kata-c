@@ -14,10 +14,12 @@ static void canary_test(void **state) {
 }
 
 static void register_non_existing_username(void **state) {
+    register_clear();
     assert_int_equal(true, register_user("pepe"));
 }
 
 static void register_existing_username(void **state) {
+    register_clear();
     assert_int_equal(true, register_user("pepe"));
     assert_int_equal(false, register_user("pepe"));
 }
