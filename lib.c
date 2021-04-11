@@ -13,6 +13,6 @@ bool register_user(char *username) {
             return false;
         }
     }
-    strcpy(registered_users[i], username, strlen(username));
+    strcpy(registered_users[i], username);
     return true;
 }
