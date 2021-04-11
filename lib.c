@@ -97,7 +97,8 @@ char **export_contents() {
 
 
 void import_contents(char **backup) {
-    char *string = backup[0];
+    int line = 0;
+    char *string = backup[line];
     while (strlen(string) > 0) {
         {
             int user_begin = 0, user_end = 0;
@@ -108,7 +109,8 @@ void import_contents(char **backup) {
                 }
             }
         }
-        string++;
+        line++;
+        string = backup[line];
     }
 }
 
