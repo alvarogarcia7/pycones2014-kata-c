@@ -6,6 +6,7 @@
 #include "../lib.h"
 
 #include <stdbool.h>
+#include <printf.h>
 
 /* A test case that does nothing and succeeds. */
 static void canary_test(void **state) {
@@ -44,7 +45,6 @@ static void follow_multiple_users(void **state) {
     char **followees = user_is_following("pepe");
     assert_string_equal(followees[0], "juan");
     assert_string_equal(followees[1], "jose");
-    assert_null(followees[2]);
 }
 
 int main(void) {
