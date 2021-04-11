@@ -21,7 +21,7 @@ void register_clear() {
         free(follows[i]);
     }
     for (int i = 0; i < MAX_USERS && i < max_index; ++i) {
-        followees[0] = 0;
+        followees[i] = 0;
     }
     max_index = 0;
 }
