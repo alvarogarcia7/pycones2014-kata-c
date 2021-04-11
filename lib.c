@@ -97,15 +97,15 @@ char **export_contents() {
 
 
 void import_contents(char **backup) {
-    char *string = backup[line];
+    char *string = backup[0];
     while (strlen(string) > 0) {
         {
             int user_begin = 0, user_end = 0;
             for (int i = 0; i < strlen(string); ++i) {
                 if (':' == string[i]) {
                     user_end = i - 2;
+                    printf("%c %c\n", string[user_begin], string[user_end]);
                 }
-                printf("%c %c\n", string[user_begin], string[user_end]);
             }
         }
         string++;
