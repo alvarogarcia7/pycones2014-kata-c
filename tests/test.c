@@ -26,6 +26,7 @@ static void register_existing_username(void **state) {
 
 static void follow_another_user(void **state) {
     register_clear();
+    register_user("pepe");
     assert_int_equal(true, follow_user("pepe", "juan"));
 
     char **followees = user_is_following("pepe");
