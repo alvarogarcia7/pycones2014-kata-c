@@ -64,6 +64,31 @@ static void persist_users_and_followees(void **state){
     assert_null(export[2]);
 }
 
+static void import_users_and_followees(void **state){
+    register_clear();
+
+    char *backup[3] = {
+            "pepe: juan,jose,",
+            "juan: pepe,miguel,"
+            "\0"
+    };
+
+    import_contents(backup);
+
+    {
+        char **followees = user_is_following("pepe");
+        assert_string_equal(followees[0], "juan");
+        assert_string_equal(followees[1], "jose");
+        assert_null(followees[2]);
+    }
+
+    {
+        char **followees = user_is_following("juan");
+        assert_string_equal(followees[0], "pepe");
+        assert_string_equal(followees[1], "miguel");
+        assert_null(followees[2]);
+    }
+}
 int main(void) {
     const struct CMUnitTest tests[] = {
             cmocka_unit_test(canary_test)
@@ -72,6 +97,7 @@ int main(void) {
             , cmocka_unit_test(follow_another_user)
             , cmocka_unit_test(follow_multiple_users)
             , cmocka_unit_test(persist_users_and_followees)
+            , cmocka_unit_test(import_users_and_followees)
     };
     return cmocka_run_group_tests(tests, NULL, NULL);
 }
