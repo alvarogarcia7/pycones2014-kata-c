@@ -77,14 +77,14 @@ char **user_is_following(char *username) {
 char **export_contents() {
     char **lines = calloc(max_index + 1, sizeof(char *));
     for (int i = 0; i < max_index; ++i) {
-        int line_size = strlen(registered_users[i]) + strlen(": ");
+        int line_size = strlen(registered_users[i]) + strlen(":");
         for (int j = 0; j < followees[i]; ++j) {
             line_size += strlen(follows[i][j]) + strlen(",");
         }
         lines[i] = calloc(line_size + 1, sizeof(char));
 
         strcpy(lines[i] + strlen(lines[i]), registered_users[i]);
-        strcpy(lines[i] + strlen(lines[i]), ": ");
+        strcpy(lines[i] + strlen(lines[i]), ":");
         for (int j = 0; j < followees[i]; ++j) {
             strcpy(lines[i] + strlen(lines[i]), follows[i][j]);
             strcpy(lines[i] + strlen(lines[i]), ",");
@@ -110,7 +110,7 @@ void import_contents(char *string) {
 
             register_user(user_name);
 
-            user_begin = i + 2;
+            user_begin = i + 1;
         } else if (',' == string[i]) {
             user_end = i - 1;
 
