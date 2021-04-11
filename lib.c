@@ -7,6 +7,7 @@
 
 char *(registered_users)[MAX_USERS];
 int max_index =0;
+char **(follows)[MAX_USERS];
 
 void register_clear(){
     for (int i = 0; i < MAX_USERS && i < max_index; ++i) {
@@ -26,4 +27,10 @@ bool register_user(char *username) {
     strcpy(registered_users[i], username);
     max_index++;
     return true;
+}
+bool follow_user(char *username, char *who_to_follow){
+
+}
+char **user_is_following(char *username){
+
 }

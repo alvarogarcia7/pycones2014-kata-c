@@ -27,7 +27,10 @@ static void register_existing_username(void **state) {
 static void follow_another_user(void **state) {
     register_clear();
     assert_int_equal(true, follow_user("pepe", "juan"));
-    
+
+    char **followees = user_is_following("pepe");
+    assert_string_equal(followees[0], "juan");
+    assert_null(followees[1]);
 }
 
 int main(void) {
@@ -35,6 +38,7 @@ int main(void) {
             cmocka_unit_test(canary_test)
             , cmocka_unit_test(register_non_existing_username)
             , cmocka_unit_test(register_existing_username)
+            , cmocka_unit_test(follow_another_user)
     };
     return cmocka_run_group_tests(tests, NULL, NULL);
 }
