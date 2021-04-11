@@ -122,8 +122,6 @@ void import_contents(char **backup) {
                     char *followee_name = calloc(followee_name_length + 1, sizeof(char));
                     strncpy(followee_name, &string[user_begin], followee_name_length);
 
-                    printf("Followee: '%s'\n", followee_name);
-
                     follow_user(user_name, followee_name);
 
                     free(followee_name);
