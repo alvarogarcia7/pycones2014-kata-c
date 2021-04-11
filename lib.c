@@ -47,7 +47,6 @@ bool follow_user(char *username, char *who_to_follow) {
             follows[i][this_followee] = calloc(strlen(who_to_follow) + 1, sizeof(char));
             strcpy(follows[i][this_followee], who_to_follow);
             follows[i][this_followee + 1] = calloc(1, sizeof(char));
-            follows[i][this_followee + 1] = NULL;
             followees[i]++;
             return true;
         }
