@@ -56,6 +56,7 @@ static void persist_users_and_followees(void **state){
     register_user("juan");
     follow_user("juan", "pepe");
     follow_user("juan", "miguel");
+    print_debug_state();
 
     char **export = export_contents();
     assert_string_equal(export[0], "pepe: juan,jose,");
