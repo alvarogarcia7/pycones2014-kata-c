@@ -6,3 +6,5 @@ Executed first test
 
 Iteración I: 10 minutos
     * Completed in 12 minutes
+    
+Iteration II: 
