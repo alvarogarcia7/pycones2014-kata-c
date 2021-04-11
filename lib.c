@@ -7,7 +7,7 @@
 
 char *(registered_users)[MAX_USERS];
 int max_index = 0;
-char **(follows)[MAX_USERS] = {0};
+char *(*follows)[MAX_USERS] = {0};
 int followees[MAX_USERS] = {0};
 
 void register_clear() {
@@ -43,7 +43,7 @@ bool follow_user(char *username, char *who_to_follow) {
     for (int i = 0; i < MAX_USERS && i < max_index; ++i) {
         if (strcmp(registered_users[i], username) == 0) {
             int this_followee = followees[i];
-            follows[i] = (char **)realloc(follows[i], sizeof(char **) * (this_followee + 1 + 1));
+            follows[i] = realloc(follows[i], sizeof(char **) * (this_followee + 1 + 1));
             follows[i][this_followee] = calloc(strlen(who_to_follow) + 1, sizeof(char));
             strcpy(follows[i][this_followee], who_to_follow);
             follows[i][this_followee + 1] = NULL;
