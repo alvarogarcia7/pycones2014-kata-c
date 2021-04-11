@@ -6,14 +6,15 @@
 #define MAX_USERS 100
 
 char *(registered_users)[MAX_USERS];
-int max_index =0;
+int max_index = 0;
 char **(follows)[MAX_USERS];
+int followees[MAX_USERS] = {0};
 
-void register_clear(){
+void register_clear() {
     for (int i = 0; i < MAX_USERS && i < max_index; ++i) {
         free(registered_users[i]);
     }
-    max_index =0;
+    max_index = 0;
 }
 
 bool register_user(char *username) {
@@ -29,17 +30,22 @@ bool register_user(char *username) {
     return true;
 }
 
-bool follow_user(char *username, char *who_to_follow){
+bool follow_user(char *username, char *who_to_follow) {
     for (int i = 0; i < MAX_USERS && i < max_index; ++i) {
         if (strcmp(registered_users[i], username) == 0) {
-            follows[i] = realloc()
+            follows[i] = realloc(follows[i], sizeof(followees[i] + 1));
+            strcpy(follows[i][followees[i] + 1], who_to_follow);
             return true;
         }
     }
     return false;
 }
 
-char **user_is_following(char *username){
-
-
+char **user_is_following(char *username) {
+    for (int i = 0; i < MAX_USERS && i < max_index; ++i) {
+        if (strcmp(registered_users[i], username) == 0) {
+            return follows[i];
+        }
+    }
+    return NULL;
 }
