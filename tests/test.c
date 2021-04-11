@@ -70,6 +70,7 @@ int main(void) {
             , cmocka_unit_test(register_existing_username)
             , cmocka_unit_test(follow_another_user)
             , cmocka_unit_test(follow_multiple_users)
+            , cmocka_unit_test(persist_users_and_followees)
     };
     return cmocka_run_group_tests(tests, NULL, NULL);
 }
