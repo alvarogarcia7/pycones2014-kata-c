@@ -33,8 +33,10 @@ bool register_user(char *username) {
 bool follow_user(char *username, char *who_to_follow) {
     for (int i = 0; i < MAX_USERS && i < max_index; ++i) {
         if (strcmp(registered_users[i], username) == 0) {
-            follows[i] = realloc(follows[i], sizeof(followees[i] + 1));
-            strcpy(follows[i][followees[i] + 1], who_to_follow);
+            int this_folowee = followees[i] + 1;
+            follows[i] = realloc(follows[i], sizeof(this_folowee));
+            follows[i][this_folowee] = calloc(strlen(who_to_follow), sizeof(char));
+            strcpy(follows[i][this_folowee], who_to_follow);
             return true;
         }
     }
