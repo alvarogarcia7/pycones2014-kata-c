@@ -102,16 +102,35 @@ void import_contents(char **backup) {
     while (strlen(string) > 0) {
         {
             int user_begin = 0, user_end = 0;
+            char *user_name;
+            bool user_name_allocated;
             for (int i = 0; i < strlen(string); ++i) {
                 if (':' == string[i]) {
                     user_end = i - 1;
-                    char *user_name = calloc(user_end - user_begin + 1 + 1, sizeof(char));
-                    strncpy(user_name, &string[user_begin], user_end - user_begin + 1);
+                    int user_name_length = user_end - user_begin + 1;
+                    user_name = calloc(user_name_length + 1, sizeof(char));
+                    user_name_allocated = true;
+                    strncpy(user_name, &string[user_begin], user_name_length);
 
                     register_user(user_name);
 
-                    free(user_name);
+                    user_begin = i + 2;
+                } else if(',' == string[i]){
+                    user_end = i - 1;
+
+                    int followee_name_length = user_end - user_begin + 1;
+                    char *followee_name = calloc(followee_name_length + 1, sizeof(char));
+                    strncpy(followee_name, &string[user_begin], followee_name_length);
+
+                    printf("Followee: '%s'\n", followee_name);
+
+                    follow_user(user_name, followee_name);
+
+                    user_begin = i + 1;
                 }
+            }
+            if(user_name_allocated) {
+                free(user_name);
             }
         }
         line++;
