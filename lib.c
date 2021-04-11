@@ -89,6 +89,7 @@ char **export_contents() {
             strcpy(&*(*(lines+i)+strlen(lines[i])), follows[i][j]);
             strcpy(&*(*(lines+i)+strlen(lines[i])), ",");
         }
+        strcpy(&*(*(lines+i)+strlen(lines[i])), "\0");
     }
 
     return lines;
