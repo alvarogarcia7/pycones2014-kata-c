@@ -7,7 +7,7 @@
 
 char *(registered_users)[MAX_USERS];
 int max_index = 0;
-char *(*follows)[MAX_USERS] = {0};
+char **(follows)[MAX_USERS] = {0};
 int followees[MAX_USERS] = {0};
 
 void register_clear() {
