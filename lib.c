@@ -74,6 +74,10 @@ char **user_is_following(char *username) {
     return NULL;
 }
 
+char **export_contents(){
+    return NULL;
+}
+
 void print_debug_state(){
     printf("Max index: %d\n", max_index);
     for (int i = 0; i < MAX_USERS && i < max_index; ++i) {

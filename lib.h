@@ -8,6 +8,7 @@ void register_clear();
 
 bool follow_user(char *username, char *who_to_follow);
 char **user_is_following(char *username);
+char **export_contents();
 
 void print_all_users();
 void print_debug_state();

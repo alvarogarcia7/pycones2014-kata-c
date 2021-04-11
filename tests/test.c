@@ -48,6 +48,21 @@ static void follow_multiple_users(void **state) {
     assert_null(followees[2]);
 }
 
+static void persist_users_and_followees(void **state){
+    register_clear();
+    register_user("pepe");
+    follow_user("pepe", "juan");
+    follow_user("pepe", "jose");
+    register_user("juan");
+    follow_user("juan", "pepe");
+    follow_user("juan", "miguel");
+
+    char **export = export_contents();
+    assert_string_equal(export[0], "pepe: juan,jose");
+    assert_string_equal(export[1], "juan: pepe,miguel");
+    assert_null(export[2]);
+}
+
 int main(void) {
     const struct CMUnitTest tests[] = {
             cmocka_unit_test(canary_test)
