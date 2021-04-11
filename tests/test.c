@@ -53,7 +53,7 @@ int main(void) {
             cmocka_unit_test(canary_test)
             , cmocka_unit_test(register_non_existing_username)
             , cmocka_unit_test(register_existing_username)
-//            , cmocka_unit_test(follow_another_user)
+            , cmocka_unit_test(follow_another_user)
             , cmocka_unit_test(follow_multiple_users)
     };
     return cmocka_run_group_tests(tests, NULL, NULL);
