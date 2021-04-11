@@ -81,9 +81,9 @@ char **export_contents() {
         for (int j = 0; j < followees[i]; ++j) {
             line_size += strlen(follows[i][j]) + strlen(",");
         }
-        lines[i] = calloc(line_size, sizeof(char));
+        lines[i] = calloc(line_size+1, sizeof(char));
 
-        strcpy(&*(*(lines+i)+strlen(lines[i])+1), registered_users[i]);
+        strcpy(&*(*(lines+i)+strlen(lines[i])), registered_users[i]);
         strcpy(&*(*(lines+i)+strlen(lines[i])), ": ");
         for (int j = 0; j < followees[i]; ++j) {
             strcpy(&*(*(lines+i)+strlen(lines[i])), follows[i][j]);
