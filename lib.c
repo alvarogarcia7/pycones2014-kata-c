@@ -87,6 +87,7 @@ char **export_contents() {
         strcpy(&*(*(lines+i)+strlen(lines[i])), ": ");
         for (int j = 0; j < followees[i]; ++j) {
             strcpy(&*(*(lines+i)+strlen(lines[i])), follows[i][j]);
+            strcpy(&*(*(lines+i)+strlen(lines[i])), ",");
         }
     }
 
