@@ -85,6 +85,7 @@ char **export_contents() {
 
         strcpy(lines[i], registered_users[i]);
         strcpy(&*(*(lines+i)+strlen(lines[i])), ": ");
+        strcpy(&*(*(lines+i)+strlen(lines[i])), "juan,");
     }
 
     return lines;
