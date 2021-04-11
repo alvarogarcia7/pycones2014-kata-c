@@ -140,3 +140,1042 @@ Parsed C implicit link information from above output:
   implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks]
 
 
+Performing C SOURCE FILE Test REQUIRED_FLAGS_WERROR succeeded with the following output:
+Change Dir: /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9a6b4/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_9a6b4.dir/build.make CMakeFiles/cmTC_9a6b4.dir/build
+Building C object CMakeFiles/cmTC_9a6b4.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DREQUIRED_FLAGS_WERROR -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -Werror -o CMakeFiles/cmTC_9a6b4.dir/src.c.o   -c /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_9a6b4
+"/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_9a6b4.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DREQUIRED_FLAGS_WERROR -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_9a6b4.dir/src.c.o  -o cmTC_9a6b4 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test WITH_STD_GNU99_FLAG succeeded with the following output:
+Change Dir: /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6395c/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_6395c.dir/build.make CMakeFiles/cmTC_6395c.dir/build
+Building C object CMakeFiles/cmTC_6395c.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DWITH_STD_GNU99_FLAG -Werror -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -std=gnu99 -o CMakeFiles/cmTC_6395c.dir/src.c.o   -c /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_6395c
+"/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_6395c.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DWITH_STD_GNU99_FLAG -Werror -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_6395c.dir/src.c.o  -o cmTC_6395c 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test WITH_WPEDANTIC_FLAG succeeded with the following output:
+Change Dir: /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_47ae0/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_47ae0.dir/build.make CMakeFiles/cmTC_47ae0.dir/build
+Building C object CMakeFiles/cmTC_47ae0.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DWITH_WPEDANTIC_FLAG -Werror -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -Wpedantic -o CMakeFiles/cmTC_47ae0.dir/src.c.o   -c /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_47ae0
+"/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_47ae0.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DWITH_WPEDANTIC_FLAG -Werror -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_47ae0.dir/src.c.o  -o cmTC_47ae0 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test WITH_WALL_FLAG succeeded with the following output:
+Change Dir: /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2e120/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_2e120.dir/build.make CMakeFiles/cmTC_2e120.dir/build
+Building C object CMakeFiles/cmTC_2e120.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DWITH_WALL_FLAG -Werror -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -Wall -o CMakeFiles/cmTC_2e120.dir/src.c.o   -c /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_2e120
+"/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_2e120.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DWITH_WALL_FLAG -Werror -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_2e120.dir/src.c.o  -o cmTC_2e120 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test WITH_WSHADOW_FLAG succeeded with the following output:
+Change Dir: /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6810e/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_6810e.dir/build.make CMakeFiles/cmTC_6810e.dir/build
+Building C object CMakeFiles/cmTC_6810e.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DWITH_WSHADOW_FLAG -Werror -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -Wshadow -o CMakeFiles/cmTC_6810e.dir/src.c.o   -c /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_6810e
+"/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_6810e.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DWITH_WSHADOW_FLAG -Werror -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_6810e.dir/src.c.o  -o cmTC_6810e 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test WITH_WMISSING_PROTOTYPES_FLAG succeeded with the following output:
+Change Dir: /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_75c09/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_75c09.dir/build.make CMakeFiles/cmTC_75c09.dir/build
+Building C object CMakeFiles/cmTC_75c09.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DWITH_WMISSING_PROTOTYPES_FLAG -Werror -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -Wmissing-prototypes -o CMakeFiles/cmTC_75c09.dir/src.c.o   -c /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_75c09
+"/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_75c09.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DWITH_WMISSING_PROTOTYPES_FLAG -Werror -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_75c09.dir/src.c.o  -o cmTC_75c09 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test WITH_WCAST_ALIGN_FLAG succeeded with the following output:
+Change Dir: /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1201a/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_1201a.dir/build.make CMakeFiles/cmTC_1201a.dir/build
+Building C object CMakeFiles/cmTC_1201a.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DWITH_WCAST_ALIGN_FLAG -Werror -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -Wcast-align -o CMakeFiles/cmTC_1201a.dir/src.c.o   -c /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_1201a
+"/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_1201a.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DWITH_WCAST_ALIGN_FLAG -Werror -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_1201a.dir/src.c.o  -o cmTC_1201a 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test WITH_WERROR_ADDRESS_FLAG succeeded with the following output:
+Change Dir: /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_90e3b/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_90e3b.dir/build.make CMakeFiles/cmTC_90e3b.dir/build
+Building C object CMakeFiles/cmTC_90e3b.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DWITH_WERROR_ADDRESS_FLAG -Werror -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -Werror=address -o CMakeFiles/cmTC_90e3b.dir/src.c.o   -c /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_90e3b
+"/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_90e3b.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DWITH_WERROR_ADDRESS_FLAG -Werror -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_90e3b.dir/src.c.o  -o cmTC_90e3b 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test WITH_WSTRICT_PROTOTYPES_FLAG succeeded with the following output:
+Change Dir: /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7c462/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_7c462.dir/build.make CMakeFiles/cmTC_7c462.dir/build
+Building C object CMakeFiles/cmTC_7c462.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DWITH_WSTRICT_PROTOTYPES_FLAG -Werror -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -Wstrict-prototypes -o CMakeFiles/cmTC_7c462.dir/src.c.o   -c /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_7c462
+"/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_7c462.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DWITH_WSTRICT_PROTOTYPES_FLAG -Werror -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_7c462.dir/src.c.o  -o cmTC_7c462 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test WITH_WERROR_STRICT_PROTOTYPES_FLAG succeeded with the following output:
+Change Dir: /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_42117/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_42117.dir/build.make CMakeFiles/cmTC_42117.dir/build
+Building C object CMakeFiles/cmTC_42117.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DWITH_WERROR_STRICT_PROTOTYPES_FLAG -Werror -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -Werror=strict-prototypes -o CMakeFiles/cmTC_42117.dir/src.c.o   -c /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_42117
+"/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_42117.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DWITH_WERROR_STRICT_PROTOTYPES_FLAG -Werror -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_42117.dir/src.c.o  -o cmTC_42117 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test WITH_WWRITE_STRINGS_FLAG succeeded with the following output:
+Change Dir: /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c065a/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_c065a.dir/build.make CMakeFiles/cmTC_c065a.dir/build
+Building C object CMakeFiles/cmTC_c065a.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DWITH_WWRITE_STRINGS_FLAG -Werror -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -Wwrite-strings -o CMakeFiles/cmTC_c065a.dir/src.c.o   -c /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_c065a
+"/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_c065a.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DWITH_WWRITE_STRINGS_FLAG -Werror -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c065a.dir/src.c.o  -o cmTC_c065a 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test WITH_WERROR_WRITE_STRINGS_FLAG succeeded with the following output:
+Change Dir: /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3097e/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_3097e.dir/build.make CMakeFiles/cmTC_3097e.dir/build
+Building C object CMakeFiles/cmTC_3097e.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DWITH_WERROR_WRITE_STRINGS_FLAG -Werror -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -Werror=write-strings -o CMakeFiles/cmTC_3097e.dir/src.c.o   -c /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_3097e
+"/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_3097e.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DWITH_WERROR_WRITE_STRINGS_FLAG -Werror -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_3097e.dir/src.c.o  -o cmTC_3097e 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test WITH_WERROR_IMPLICIT_FUNCTION_DECLARATION_FLAG succeeded with the following output:
+Change Dir: /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0ad44/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_0ad44.dir/build.make CMakeFiles/cmTC_0ad44.dir/build
+Building C object CMakeFiles/cmTC_0ad44.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DWITH_WERROR_IMPLICIT_FUNCTION_DECLARATION_FLAG -Werror -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -Werror-implicit-function-declaration -o CMakeFiles/cmTC_0ad44.dir/src.c.o   -c /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_0ad44
+"/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_0ad44.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DWITH_WERROR_IMPLICIT_FUNCTION_DECLARATION_FLAG -Werror -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_0ad44.dir/src.c.o  -o cmTC_0ad44 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test WITH_WPOINTER_ARITH_FLAG succeeded with the following output:
+Change Dir: /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8c83a/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_8c83a.dir/build.make CMakeFiles/cmTC_8c83a.dir/build
+Building C object CMakeFiles/cmTC_8c83a.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DWITH_WPOINTER_ARITH_FLAG -Werror -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -Wpointer-arith -o CMakeFiles/cmTC_8c83a.dir/src.c.o   -c /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_8c83a
+"/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_8c83a.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DWITH_WPOINTER_ARITH_FLAG -Werror -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_8c83a.dir/src.c.o  -o cmTC_8c83a 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test WITH_WERROR_POINTER_ARITH_FLAG succeeded with the following output:
+Change Dir: /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d0f6e/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_d0f6e.dir/build.make CMakeFiles/cmTC_d0f6e.dir/build
+Building C object CMakeFiles/cmTC_d0f6e.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DWITH_WERROR_POINTER_ARITH_FLAG -Werror -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -Werror=pointer-arith -o CMakeFiles/cmTC_d0f6e.dir/src.c.o   -c /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_d0f6e
+"/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_d0f6e.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DWITH_WERROR_POINTER_ARITH_FLAG -Werror -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d0f6e.dir/src.c.o  -o cmTC_d0f6e 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test WITH_WDECLARATION_AFTER_STATEMENT_FLAG succeeded with the following output:
+Change Dir: /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_76ee8/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_76ee8.dir/build.make CMakeFiles/cmTC_76ee8.dir/build
+Building C object CMakeFiles/cmTC_76ee8.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DWITH_WDECLARATION_AFTER_STATEMENT_FLAG -Werror -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -Wdeclaration-after-statement -o CMakeFiles/cmTC_76ee8.dir/src.c.o   -c /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_76ee8
+"/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_76ee8.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DWITH_WDECLARATION_AFTER_STATEMENT_FLAG -Werror -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_76ee8.dir/src.c.o  -o cmTC_76ee8 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test WITH_WERROR_DECLARATION_AFTER_STATEMENT_FLAG succeeded with the following output:
+Change Dir: /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_68054/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_68054.dir/build.make CMakeFiles/cmTC_68054.dir/build
+Building C object CMakeFiles/cmTC_68054.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DWITH_WERROR_DECLARATION_AFTER_STATEMENT_FLAG -Werror -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -Werror=declaration-after-statement -o CMakeFiles/cmTC_68054.dir/src.c.o   -c /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_68054
+"/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_68054.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DWITH_WERROR_DECLARATION_AFTER_STATEMENT_FLAG -Werror -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_68054.dir/src.c.o  -o cmTC_68054 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test WITH_WRETURN_TYPE_FLAG succeeded with the following output:
+Change Dir: /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_aebc0/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_aebc0.dir/build.make CMakeFiles/cmTC_aebc0.dir/build
+Building C object CMakeFiles/cmTC_aebc0.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DWITH_WRETURN_TYPE_FLAG -Werror -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -Wreturn-type -o CMakeFiles/cmTC_aebc0.dir/src.c.o   -c /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_aebc0
+"/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_aebc0.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DWITH_WRETURN_TYPE_FLAG -Werror -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_aebc0.dir/src.c.o  -o cmTC_aebc0 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test WITH_WERROR_RETURN_TYPE_FLAG succeeded with the following output:
+Change Dir: /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b47da/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_b47da.dir/build.make CMakeFiles/cmTC_b47da.dir/build
+Building C object CMakeFiles/cmTC_b47da.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DWITH_WERROR_RETURN_TYPE_FLAG -Werror -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -Werror=return-type -o CMakeFiles/cmTC_b47da.dir/src.c.o   -c /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_b47da
+"/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_b47da.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DWITH_WERROR_RETURN_TYPE_FLAG -Werror -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b47da.dir/src.c.o  -o cmTC_b47da 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test WITH_WUNINITIALIZED_FLAG succeeded with the following output:
+Change Dir: /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9b80b/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_9b80b.dir/build.make CMakeFiles/cmTC_9b80b.dir/build
+Building C object CMakeFiles/cmTC_9b80b.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DWITH_WUNINITIALIZED_FLAG -Werror -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -Wuninitialized -o CMakeFiles/cmTC_9b80b.dir/src.c.o   -c /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_9b80b
+"/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_9b80b.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DWITH_WUNINITIALIZED_FLAG -Werror -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_9b80b.dir/src.c.o  -o cmTC_9b80b 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test WITH_WERROR_UNINITIALIZED_FLAG succeeded with the following output:
+Change Dir: /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_71100/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_71100.dir/build.make CMakeFiles/cmTC_71100.dir/build
+Building C object CMakeFiles/cmTC_71100.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DWITH_WERROR_UNINITIALIZED_FLAG -Werror -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -Werror=uninitialized -o CMakeFiles/cmTC_71100.dir/src.c.o   -c /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_71100
+"/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_71100.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DWITH_WERROR_UNINITIALIZED_FLAG -Werror -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_71100.dir/src.c.o  -o cmTC_71100 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test WITH_WIMPLICIT_FALLTHROUGH_FLAG succeeded with the following output:
+Change Dir: /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cb7f3/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_cb7f3.dir/build.make CMakeFiles/cmTC_cb7f3.dir/build
+Building C object CMakeFiles/cmTC_cb7f3.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DWITH_WIMPLICIT_FALLTHROUGH_FLAG -Werror -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -Wimplicit-fallthrough -o CMakeFiles/cmTC_cb7f3.dir/src.c.o   -c /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_cb7f3
+"/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_cb7f3.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DWITH_WIMPLICIT_FALLTHROUGH_FLAG -Werror -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_cb7f3.dir/src.c.o  -o cmTC_cb7f3 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test WITH_WERROR_STRICT_OVERFLOW_FLAG succeeded with the following output:
+Change Dir: /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_77c1b/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_77c1b.dir/build.make CMakeFiles/cmTC_77c1b.dir/build
+Building C object CMakeFiles/cmTC_77c1b.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DWITH_WERROR_STRICT_OVERFLOW_FLAG -Werror -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -Werror=strict-overflow -o CMakeFiles/cmTC_77c1b.dir/src.c.o   -c /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_77c1b
+"/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_77c1b.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DWITH_WERROR_STRICT_OVERFLOW_FLAG -Werror -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_77c1b.dir/src.c.o  -o cmTC_77c1b 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test WITH_WSTRICT_OVERFLOW_2_FLAG succeeded with the following output:
+Change Dir: /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7e751/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_7e751.dir/build.make CMakeFiles/cmTC_7e751.dir/build
+Building C object CMakeFiles/cmTC_7e751.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DWITH_WSTRICT_OVERFLOW_2_FLAG -Werror -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -Wstrict-overflow=2 -o CMakeFiles/cmTC_7e751.dir/src.c.o   -c /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_7e751
+"/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_7e751.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DWITH_WSTRICT_OVERFLOW_2_FLAG -Werror -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_7e751.dir/src.c.o  -o cmTC_7e751 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test WITH_WNO_FORMAT_ZERO_LENGTH_FLAG succeeded with the following output:
+Change Dir: /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_16322/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_16322.dir/build.make CMakeFiles/cmTC_16322.dir/build
+Building C object CMakeFiles/cmTC_16322.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DWITH_WNO_FORMAT_ZERO_LENGTH_FLAG -Werror -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -Wno-format-zero-length -o CMakeFiles/cmTC_16322.dir/src.c.o   -c /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_16322
+"/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_16322.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DWITH_WNO_FORMAT_ZERO_LENGTH_FLAG -Werror -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_16322.dir/src.c.o  -o cmTC_16322 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test WITH_WMISSING_FIELD_INITIALIZERS_FLAG succeeded with the following output:
+Change Dir: /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_35bd7/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_35bd7.dir/build.make CMakeFiles/cmTC_35bd7.dir/build
+Building C object CMakeFiles/cmTC_35bd7.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DWITH_WMISSING_FIELD_INITIALIZERS_FLAG -Werror -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -Wmissing-field-initializers -o CMakeFiles/cmTC_35bd7.dir/src.c.o   -c /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_35bd7
+"/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_35bd7.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DWITH_WMISSING_FIELD_INITIALIZERS_FLAG -Werror -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_35bd7.dir/src.c.o  -o cmTC_35bd7 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test REQUIRED_FLAGS_WFORMAT succeeded with the following output:
+Change Dir: /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0a426/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_0a426.dir/build.make CMakeFiles/cmTC_0a426.dir/build
+Building C object CMakeFiles/cmTC_0a426.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DREQUIRED_FLAGS_WFORMAT -Werror -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -Wformat -o CMakeFiles/cmTC_0a426.dir/src.c.o   -c /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_0a426
+"/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_0a426.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DREQUIRED_FLAGS_WFORMAT -Werror -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_0a426.dir/src.c.o  -o cmTC_0a426 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test WITH_WFORMAT_SECURITY_FLAG succeeded with the following output:
+Change Dir: /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_71de8/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_71de8.dir/build.make CMakeFiles/cmTC_71de8.dir/build
+Building C object CMakeFiles/cmTC_71de8.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DWITH_WFORMAT_SECURITY_FLAG -Werror -Wformat -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -Wformat-security -o CMakeFiles/cmTC_71de8.dir/src.c.o   -c /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_71de8
+"/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_71de8.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DWITH_WFORMAT_SECURITY_FLAG -Werror -Wformat -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_71de8.dir/src.c.o  -o cmTC_71de8 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test WITH_WERROR_FORMAT_SECURITY_FLAG succeeded with the following output:
+Change Dir: /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a4049/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_a4049.dir/build.make CMakeFiles/cmTC_a4049.dir/build
+Building C object CMakeFiles/cmTC_a4049.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DWITH_WERROR_FORMAT_SECURITY_FLAG -Werror -Wformat -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -Werror=format-security -o CMakeFiles/cmTC_a4049.dir/src.c.o   -c /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_a4049
+"/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_a4049.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DWITH_WERROR_FORMAT_SECURITY_FLAG -Werror -Wformat -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a4049.dir/src.c.o  -o cmTC_a4049 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test WITH_FNO_COMMON_FLAG succeeded with the following output:
+Change Dir: /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2a4b5/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_2a4b5.dir/build.make CMakeFiles/cmTC_2a4b5.dir/build
+Building C object CMakeFiles/cmTC_2a4b5.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DWITH_FNO_COMMON_FLAG -Werror -Wformat -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -fno-common -o CMakeFiles/cmTC_2a4b5.dir/src.c.o   -c /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_2a4b5
+"/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_2a4b5.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DWITH_FNO_COMMON_FLAG -Werror -Wformat -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_2a4b5.dir/src.c.o  -o cmTC_2a4b5 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test WITH_STACK_PROTECTOR_STRONG succeeded with the following output:
+Change Dir: /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4df10/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_4df10.dir/build.make CMakeFiles/cmTC_4df10.dir/build
+Building C object CMakeFiles/cmTC_4df10.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DWITH_STACK_PROTECTOR_STRONG -fstack-protector-strong -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_4df10.dir/src.c.o   -c /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_4df10
+"/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_4df10.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DWITH_STACK_PROTECTOR_STRONG -fstack-protector-strong -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_4df10.dir/src.c.o  -o cmTC_4df10 
+
+
+Source file was:
+int main(int argc, char **argv) { char buffer[256]; return buffer[argc]=0;}
+Determining if the include file assert.h exists passed with the following output:
+Change Dir: /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_48a64/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_48a64.dir/build.make CMakeFiles/cmTC_48a64.dir/build
+Building C object CMakeFiles/cmTC_48a64.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_48a64.dir/CheckIncludeFile.c.o   -c /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_48a64
+"/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_48a64.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_48a64.dir/CheckIncludeFile.c.o  -o cmTC_48a64 
+
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_72f09/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_72f09.dir/build.make CMakeFiles/cmTC_72f09.dir/build
+Building C object CMakeFiles/cmTC_72f09.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_72f09.dir/CheckIncludeFile.c.o   -c /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_72f09
+"/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_72f09.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_72f09.dir/CheckIncludeFile.c.o  -o cmTC_72f09 
+
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3f52e/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_3f52e.dir/build.make CMakeFiles/cmTC_3f52e.dir/build
+Building C object CMakeFiles/cmTC_3f52e.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_3f52e.dir/CheckIncludeFile.c.o   -c /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_3f52e
+"/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_3f52e.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_3f52e.dir/CheckIncludeFile.c.o  -o cmTC_3f52e 
+
+
+
+Determining if the include file setjmp.h exists passed with the following output:
+Change Dir: /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_019f4/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_019f4.dir/build.make CMakeFiles/cmTC_019f4.dir/build
+Building C object CMakeFiles/cmTC_019f4.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_019f4.dir/CheckIncludeFile.c.o   -c /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_019f4
+"/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_019f4.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_019f4.dir/CheckIncludeFile.c.o  -o cmTC_019f4 
+
+
+
+Determining if the include file signal.h exists passed with the following output:
+Change Dir: /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ab31b/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_ab31b.dir/build.make CMakeFiles/cmTC_ab31b.dir/build
+Building C object CMakeFiles/cmTC_ab31b.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_ab31b.dir/CheckIncludeFile.c.o   -c /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_ab31b
+"/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_ab31b.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ab31b.dir/CheckIncludeFile.c.o  -o cmTC_ab31b 
+
+
+
+Determining if the include file stdarg.h exists passed with the following output:
+Change Dir: /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a0002/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_a0002.dir/build.make CMakeFiles/cmTC_a0002.dir/build
+Building C object CMakeFiles/cmTC_a0002.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_a0002.dir/CheckIncludeFile.c.o   -c /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_a0002
+"/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_a0002.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a0002.dir/CheckIncludeFile.c.o  -o cmTC_a0002 
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7d331/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_7d331.dir/build.make CMakeFiles/cmTC_7d331.dir/build
+Building C object CMakeFiles/cmTC_7d331.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_7d331.dir/CheckIncludeFile.c.o   -c /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_7d331
+"/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_7d331.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_7d331.dir/CheckIncludeFile.c.o  -o cmTC_7d331 
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8360f/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_8360f.dir/build.make CMakeFiles/cmTC_8360f.dir/build
+Building C object CMakeFiles/cmTC_8360f.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_8360f.dir/CheckIncludeFile.c.o   -c /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_8360f
+"/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_8360f.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_8360f.dir/CheckIncludeFile.c.o  -o cmTC_8360f 
+
+
+
+Determining if the include file stdio.h exists passed with the following output:
+Change Dir: /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1aab7/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_1aab7.dir/build.make CMakeFiles/cmTC_1aab7.dir/build
+Building C object CMakeFiles/cmTC_1aab7.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_1aab7.dir/CheckIncludeFile.c.o   -c /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_1aab7
+"/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_1aab7.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_1aab7.dir/CheckIncludeFile.c.o  -o cmTC_1aab7 
+
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_43342/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_43342.dir/build.make CMakeFiles/cmTC_43342.dir/build
+Building C object CMakeFiles/cmTC_43342.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_43342.dir/CheckIncludeFile.c.o   -c /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_43342
+"/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_43342.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_43342.dir/CheckIncludeFile.c.o  -o cmTC_43342 
+
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_98bf7/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_98bf7.dir/build.make CMakeFiles/cmTC_98bf7.dir/build
+Building C object CMakeFiles/cmTC_98bf7.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_98bf7.dir/CheckIncludeFile.c.o   -c /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_98bf7
+"/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_98bf7.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_98bf7.dir/CheckIncludeFile.c.o  -o cmTC_98bf7 
+
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_bc4c0/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_bc4c0.dir/build.make CMakeFiles/cmTC_bc4c0.dir/build
+Building C object CMakeFiles/cmTC_bc4c0.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_bc4c0.dir/CheckIncludeFile.c.o   -c /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_bc4c0
+"/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_bc4c0.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_bc4c0.dir/CheckIncludeFile.c.o  -o cmTC_bc4c0 
+
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_24e09/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_24e09.dir/build.make CMakeFiles/cmTC_24e09.dir/build
+Building C object CMakeFiles/cmTC_24e09.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_24e09.dir/CheckIncludeFile.c.o   -c /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_24e09
+"/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_24e09.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_24e09.dir/CheckIncludeFile.c.o  -o cmTC_24e09 
+
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a921d/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_a921d.dir/build.make CMakeFiles/cmTC_a921d.dir/build
+Building C object CMakeFiles/cmTC_a921d.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_a921d.dir/CheckIncludeFile.c.o   -c /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_a921d
+"/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_a921d.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a921d.dir/CheckIncludeFile.c.o  -o cmTC_a921d 
+
+
+
+Determining if the include file time.h exists passed with the following output:
+Change Dir: /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e8300/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_e8300.dir/build.make CMakeFiles/cmTC_e8300.dir/build
+Building C object CMakeFiles/cmTC_e8300.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_e8300.dir/CheckIncludeFile.c.o   -c /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_e8300
+"/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_e8300.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e8300.dir/CheckIncludeFile.c.o  -o cmTC_e8300 
+
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9af20/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_9af20.dir/build.make CMakeFiles/cmTC_9af20.dir/build
+Building C object CMakeFiles/cmTC_9af20.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_9af20.dir/CheckIncludeFile.c.o   -c /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_9af20
+"/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_9af20.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_9af20.dir/CheckIncludeFile.c.o  -o cmTC_9af20 
+
+
+
+Performing C SOURCE FILE Test HAVE_STRUCT_TIMESPEC succeeded with the following output:
+Change Dir: /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_22496/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_22496.dir/build.make CMakeFiles/cmTC_22496.dir/build
+Building C object CMakeFiles/cmTC_22496.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DHAVE_STRUCT_TIMESPEC -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_22496.dir/src.c.o   -c /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_22496
+"/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_22496.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DHAVE_STRUCT_TIMESPEC -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_22496.dir/src.c.o  -o cmTC_22496 
+
+
+Source file was:
+
+#include <time.h>
+
+int main()
+{
+  (void)sizeof(((struct timespec *)0)->tv_sec);
+  return 0;
+}
+
+Determining if the function calloc exists passed with the following output:
+Change Dir: /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7e4b8/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_7e4b8.dir/build.make CMakeFiles/cmTC_7e4b8.dir/build
+Building C object CMakeFiles/cmTC_7e4b8.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=calloc -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_7e4b8.dir/CheckFunctionExists.c.o   -c "/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/CheckFunctionExists.c"
+/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'calloc' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS calloc
+                              ^
+/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/CheckFunctionExists.c:7:3: note: 'calloc' is a builtin with type 'void *(unsigned long, unsigned long)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS calloc
+                              ^
+1 warning generated.
+Linking C executable cmTC_7e4b8
+"/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_7e4b8.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=calloc -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_7e4b8.dir/CheckFunctionExists.c.o  -o cmTC_7e4b8 
+
+
+
+Determining if the function exit exists passed with the following output:
+Change Dir: /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d2c52/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_d2c52.dir/build.make CMakeFiles/cmTC_d2c52.dir/build
+Building C object CMakeFiles/cmTC_d2c52.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=exit -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_d2c52.dir/CheckFunctionExists.c.o   -c "/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/CheckFunctionExists.c"
+/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'exit' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS exit
+                              ^
+/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/CheckFunctionExists.c:7:3: note: 'exit' is a builtin with type 'void (int) __attribute__((noreturn))'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS exit
+                              ^
+1 warning generated.
+Linking C executable cmTC_d2c52
+"/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_d2c52.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=exit -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d2c52.dir/CheckFunctionExists.c.o  -o cmTC_d2c52 
+
+
+
+Determining if the function fprintf exists passed with the following output:
+Change Dir: /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_02a7a/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_02a7a.dir/build.make CMakeFiles/cmTC_02a7a.dir/build
+Building C object CMakeFiles/cmTC_02a7a.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fprintf -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_02a7a.dir/CheckFunctionExists.c.o   -c "/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/CheckFunctionExists.c"
+/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/CheckFunctionExists.c:7:3: warning: declaration of built-in function 'fprintf' requires inclusion of the header <stdio.h> [-Wbuiltin-requires-header]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS fprintf
+                              ^
+/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/CheckFunctionExists.c:17:25: warning: format string missing [-Wformat]
+  CHECK_FUNCTION_EXISTS();
+  ~~~~~~~~~~~~~~~~~~~~~ ^
+2 warnings generated.
+Linking C executable cmTC_02a7a
+"/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_02a7a.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=fprintf -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_02a7a.dir/CheckFunctionExists.c.o  -o cmTC_02a7a 
+
+
+
+Determining if the function free exists passed with the following output:
+Change Dir: /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a59c5/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_a59c5.dir/build.make CMakeFiles/cmTC_a59c5.dir/build
+Building C object CMakeFiles/cmTC_a59c5.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=free -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_a59c5.dir/CheckFunctionExists.c.o   -c "/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/CheckFunctionExists.c"
+Linking C executable cmTC_a59c5
+"/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_a59c5.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=free -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a59c5.dir/CheckFunctionExists.c.o  -o cmTC_a59c5 
+
+
+
+Determining if the function longjmp exists passed with the following output:
+Change Dir: /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_59b40/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_59b40.dir/build.make CMakeFiles/cmTC_59b40.dir/build
+Building C object CMakeFiles/cmTC_59b40.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=longjmp -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_59b40.dir/CheckFunctionExists.c.o   -c "/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/CheckFunctionExists.c"
+/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/CheckFunctionExists.c:7:3: warning: declaration of built-in function 'longjmp' requires inclusion of the header <setjmp.h> [-Wbuiltin-requires-header]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS longjmp
+                              ^
+1 warning generated.
+Linking C executable cmTC_59b40
+"/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_59b40.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=longjmp -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_59b40.dir/CheckFunctionExists.c.o  -o cmTC_59b40 
+
+
+
+Determining if the function siglongjmp exists passed with the following output:
+Change Dir: /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7ff71/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_7ff71.dir/build.make CMakeFiles/cmTC_7ff71.dir/build
+Building C object CMakeFiles/cmTC_7ff71.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=siglongjmp -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_7ff71.dir/CheckFunctionExists.c.o   -c "/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/CheckFunctionExists.c"
+/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/CheckFunctionExists.c:7:3: warning: declaration of built-in function 'siglongjmp' requires inclusion of the header <setjmp.h> [-Wbuiltin-requires-header]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS siglongjmp
+                              ^
+1 warning generated.
+Linking C executable cmTC_7ff71
+"/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_7ff71.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=siglongjmp -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_7ff71.dir/CheckFunctionExists.c.o  -o cmTC_7ff71 
+
+
+
+Determining if the function malloc exists passed with the following output:
+Change Dir: /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c28fa/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_c28fa.dir/build.make CMakeFiles/cmTC_c28fa.dir/build
+Building C object CMakeFiles/cmTC_c28fa.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=malloc -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_c28fa.dir/CheckFunctionExists.c.o   -c "/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/CheckFunctionExists.c"
+/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'malloc' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS malloc
+                              ^
+/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/CheckFunctionExists.c:7:3: note: 'malloc' is a builtin with type 'void *(unsigned long)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS malloc
+                              ^
+1 warning generated.
+Linking C executable cmTC_c28fa
+"/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_c28fa.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=malloc -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c28fa.dir/CheckFunctionExists.c.o  -o cmTC_c28fa 
+
+
+
+Determining if the function memcpy exists passed with the following output:
+Change Dir: /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_459d6/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_459d6.dir/build.make CMakeFiles/cmTC_459d6.dir/build
+Building C object CMakeFiles/cmTC_459d6.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=memcpy -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_459d6.dir/CheckFunctionExists.c.o   -c "/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/CheckFunctionExists.c"
+/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'memcpy' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memcpy
+                              ^
+/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/CheckFunctionExists.c:7:3: note: 'memcpy' is a builtin with type 'void *(void *, const void *, unsigned long)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memcpy
+                              ^
+1 warning generated.
+Linking C executable cmTC_459d6
+"/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_459d6.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=memcpy -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_459d6.dir/CheckFunctionExists.c.o  -o cmTC_459d6 
+
+
+
+Determining if the function memset exists passed with the following output:
+Change Dir: /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6b00b/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_6b00b.dir/build.make CMakeFiles/cmTC_6b00b.dir/build
+Building C object CMakeFiles/cmTC_6b00b.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=memset -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_6b00b.dir/CheckFunctionExists.c.o   -c "/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/CheckFunctionExists.c"
+/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'memset' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memset
+                              ^
+/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/CheckFunctionExists.c:7:3: note: 'memset' is a builtin with type 'void *(void *, int, unsigned long)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memset
+                              ^
+1 warning generated.
+Linking C executable cmTC_6b00b
+"/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_6b00b.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=memset -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_6b00b.dir/CheckFunctionExists.c.o  -o cmTC_6b00b 
+
+
+
+Determining if the function printf exists passed with the following output:
+Change Dir: /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d09c8/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_d09c8.dir/build.make CMakeFiles/cmTC_d09c8.dir/build
+Building C object CMakeFiles/cmTC_d09c8.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=printf -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_d09c8.dir/CheckFunctionExists.c.o   -c "/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/CheckFunctionExists.c"
+/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'printf' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS printf
+                              ^
+/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/CheckFunctionExists.c:7:3: note: 'printf' is a builtin with type 'int (const char *, ...)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS printf
+                              ^
+1 warning generated.
+Linking C executable cmTC_d09c8
+"/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_d09c8.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=printf -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d09c8.dir/CheckFunctionExists.c.o  -o cmTC_d09c8 
+
+
+
+Determining if the function setjmp exists passed with the following output:
+Change Dir: /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f5344/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_f5344.dir/build.make CMakeFiles/cmTC_f5344.dir/build
+Building C object CMakeFiles/cmTC_f5344.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=setjmp -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_f5344.dir/CheckFunctionExists.c.o   -c "/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/CheckFunctionExists.c"
+/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/CheckFunctionExists.c:7:3: warning: declaration of built-in function 'setjmp' requires inclusion of the header <setjmp.h> [-Wbuiltin-requires-header]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS setjmp
+                              ^
+1 warning generated.
+Linking C executable cmTC_f5344
+"/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_f5344.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=setjmp -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f5344.dir/CheckFunctionExists.c.o  -o cmTC_f5344 
+
+
+
+Determining if the function signal exists passed with the following output:
+Change Dir: /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7d7cb/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_7d7cb.dir/build.make CMakeFiles/cmTC_7d7cb.dir/build
+Building C object CMakeFiles/cmTC_7d7cb.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=signal -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_7d7cb.dir/CheckFunctionExists.c.o   -c "/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/CheckFunctionExists.c"
+Linking C executable cmTC_7d7cb
+"/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_7d7cb.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=signal -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_7d7cb.dir/CheckFunctionExists.c.o  -o cmTC_7d7cb 
+
+
+
+Determining if the function strsignal exists passed with the following output:
+Change Dir: /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a2f1a/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_a2f1a.dir/build.make CMakeFiles/cmTC_a2f1a.dir/build
+Building C object CMakeFiles/cmTC_a2f1a.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strsignal -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_a2f1a.dir/CheckFunctionExists.c.o   -c "/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/CheckFunctionExists.c"
+Linking C executable cmTC_a2f1a
+"/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_a2f1a.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strsignal -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a2f1a.dir/CheckFunctionExists.c.o  -o cmTC_a2f1a 
+
+
+
+Determining if the function strcmp exists passed with the following output:
+Change Dir: /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_52e8a/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_52e8a.dir/build.make CMakeFiles/cmTC_52e8a.dir/build
+Building C object CMakeFiles/cmTC_52e8a.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strcmp -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_52e8a.dir/CheckFunctionExists.c.o   -c "/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/CheckFunctionExists.c"
+/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strcmp' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strcmp
+                              ^
+/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/CheckFunctionExists.c:7:3: note: 'strcmp' is a builtin with type 'int (const char *, const char *)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strcmp
+                              ^
+1 warning generated.
+Linking C executable cmTC_52e8a
+"/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_52e8a.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strcmp -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_52e8a.dir/CheckFunctionExists.c.o  -o cmTC_52e8a 
+
+
+
+Determining if the function clock_gettime exists passed with the following output:
+Change Dir: /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d0a98/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_d0a98.dir/build.make CMakeFiles/cmTC_d0a98.dir/build
+Building C object CMakeFiles/cmTC_d0a98.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=clock_gettime -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_d0a98.dir/CheckFunctionExists.c.o   -c "/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/CheckFunctionExists.c"
+Linking C executable cmTC_d0a98
+"/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_d0a98.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=clock_gettime -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d0a98.dir/CheckFunctionExists.c.o  -o cmTC_d0a98 
+
+
+
+Determining if the function sprintf exists passed with the following output:
+Change Dir: /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cc18e/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_cc18e.dir/build.make CMakeFiles/cmTC_cc18e.dir/build
+Building C object CMakeFiles/cmTC_cc18e.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sprintf -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_cc18e.dir/CheckFunctionExists.c.o   -c "/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/CheckFunctionExists.c"
+/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'sprintf' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS sprintf
+                              ^
+/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/CheckFunctionExists.c:7:3: note: 'sprintf' is a builtin with type 'int (char *, const char *, ...)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS sprintf
+                              ^
+1 warning generated.
+Linking C executable cmTC_cc18e
+"/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_cc18e.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sprintf -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_cc18e.dir/CheckFunctionExists.c.o  -o cmTC_cc18e 
+
+
+
+Determining if the function vsnprintf exists passed with the following output:
+Change Dir: /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_dc72b/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_dc72b.dir/build.make CMakeFiles/cmTC_dc72b.dir/build
+Building C object CMakeFiles/cmTC_dc72b.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=vsnprintf -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_dc72b.dir/CheckFunctionExists.c.o   -c "/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/CheckFunctionExists.c"
+/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'vsnprintf' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS vsnprintf
+                              ^
+/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/CheckFunctionExists.c:7:3: note: 'vsnprintf' is a builtin with type 'int (char *, unsigned long, const char *, struct __va_list_tag *)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS vsnprintf
+                              ^
+1 warning generated.
+Linking C executable cmTC_dc72b
+"/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_dc72b.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=vsnprintf -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_dc72b.dir/CheckFunctionExists.c.o  -o cmTC_dc72b 
+
+
+
+Performing C SOURCE FILE Test HAVE_GCC_THREAD_LOCAL_STORAGE succeeded with the following output:
+Change Dir: /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e5966/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_e5966.dir/build.make CMakeFiles/cmTC_e5966.dir/build
+Building C object CMakeFiles/cmTC_e5966.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DHAVE_GCC_THREAD_LOCAL_STORAGE -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_e5966.dir/src.c.o   -c /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_e5966
+"/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_e5966.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DHAVE_GCC_THREAD_LOCAL_STORAGE -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e5966.dir/src.c.o  -o cmTC_e5966 
+
+
+Source file was:
+
+__thread int tls;
+
+int main(void) {
+    return 0;
+}
+Performing C SOURCE FILE Test HAVE_CLOCK_REALTIME succeeded with the following output:
+Change Dir: /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e5192/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_e5192.dir/build.make CMakeFiles/cmTC_e5192.dir/build
+Building C object CMakeFiles/cmTC_e5192.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DHAVE_CLOCK_REALTIME -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_e5192.dir/src.c.o   -c /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_e5192
+"/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_e5192.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DHAVE_CLOCK_REALTIME -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e5192.dir/src.c.o  -o cmTC_e5192 
+
+
+Source file was:
+
+#include <time.h>
+
+int main(void) {
+    struct timespec ts;
+
+    clock_gettime(CLOCK_REALTIME, &ts);
+
+    return 0;
+}
+Determining size of unsigned short passed with the following output:
+Change Dir: /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_05bdf/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_05bdf.dir/build.make CMakeFiles/cmTC_05bdf.dir/build
+Building C object CMakeFiles/cmTC_05bdf.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_05bdf.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o   -c /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c
+Linking C executable cmTC_05bdf
+"/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_05bdf.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_05bdf.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o  -o cmTC_05bdf 
+
+
+
+Determining if the system is big endian passed with the following output:
+Change Dir: /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a77e7/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_a77e7.dir/build.make CMakeFiles/cmTC_a77e7.dir/build
+Building C object CMakeFiles/cmTC_a77e7.dir/TestEndianess.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE   -o CMakeFiles/cmTC_a77e7.dir/TestEndianess.c.o   -c /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTC_a77e7
+"/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_a77e7.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a77e7.dir/TestEndianess.c.o  -o cmTC_a77e7 
+
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
