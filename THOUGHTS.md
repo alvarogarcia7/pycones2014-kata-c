@@ -7,4 +7,5 @@ Executed first test
 Iteración I: 10 minutos
     * Completed in 12 minutes
     
-Iteration II: 
+Iteration II: 20 minutes
+    * Completed in 37 minutes.
