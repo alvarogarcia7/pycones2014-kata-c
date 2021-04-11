@@ -1,0 +1,3 @@
+/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/pycones2014_kata.dir
