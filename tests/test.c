@@ -59,8 +59,8 @@ static void persist_users_and_followees(void **state){
     print_debug_state();
 
     char **export = export_contents();
-    assert_string_equal(export[0], "pepe: juan,jose,");
-    assert_string_equal(export[1], "juan: pepe,miguel,");
+    assert_string_equal(export[0], "pepe:juan,jose,");
+    assert_string_equal(export[1], "juan:pepe,miguel,");
     assert_null(export[2]);
 }
 
@@ -68,8 +68,8 @@ static void import_users_and_followees(void **state){
     register_clear();
 
     char *backup[2] = {
-            "pepe: juan,jose,",
-            "juan: pepe,miguel,"
+            "pepe:juan,jose,",
+            "juan:pepe,miguel,"
     };
 
     for (int i = 0; i < sizeof(backup) / sizeof(char *); ++i) {
