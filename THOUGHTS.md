@@ -5,10 +5,14 @@ Completed cmocka test setup from https://github.com/alvarogarcia7/c-simple-sessi
 Executed first test 
 
 Iteración I: 10 minutos
-    * Completed in 12 minutes
+ * Completed in 12 minutes
     
 Iteration II: 20 minutes
-    * Completed in 37 minutes. + 51 minutes (defect) = 88 minutes.
+  * Completed in 37 minutes. + 51 minutes (defect) = 88 minutes.
     
 Iteration III: 20 minutes
-    * Completed in ~45 minutes.
+  * Completed in ~45 minutes.
+    
+Until now, dedicated 145 minutes, for a limit of 50 minutes.
+  * Current performance is 2.9X slower than the limit.
+
