@@ -14,6 +14,9 @@ void register_clear() {
     for (int i = 0; i < MAX_USERS && i < max_index; ++i) {
         free(registered_users[i]);
     }
+    for (int i = 0; i < MAX_USERS && i < max_index; ++i) {
+        free(follows[i]);
+    }
     max_index = 0;
 }
 
