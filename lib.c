@@ -96,45 +96,37 @@ char **export_contents() {
 }
 
 
-void import_contents(char **backup) {
-    int line = 0;
-    char *string = backup[line];
-    while (string != NULL) {
-        {
-            int user_begin = 0, user_end = 0;
-            char *user_name;
-            bool user_name_allocated;
-            for (int i = 0; i < strlen(string); ++i) {
-                if (':' == string[i]) {
-                    user_end = i - 1;
-                    int user_name_length = user_end - user_begin + 1;
-                    user_name = calloc(user_name_length + 1, sizeof(char));
-                    user_name_allocated = true;
-                    strncpy(user_name, &string[user_begin], user_name_length);
+void import_contents(char *string) {
+    int user_begin = 0, user_end = 0;
+    char *user_name;
+    bool user_name_allocated;
+    for (int i = 0; i < strlen(string); ++i) {
+        if (':' == string[i]) {
+            user_end = i - 1;
+            int user_name_length = user_end - user_begin + 1;
+            user_name = calloc(user_name_length + 1, sizeof(char));
+            user_name_allocated = true;
+            strncpy(user_name, &string[user_begin], user_name_length);
 
-                    register_user(user_name);
+            register_user(user_name);
 
-                    user_begin = i + 2;
-                } else if(',' == string[i]){
-                    user_end = i - 1;
+            user_begin = i + 2;
+        } else if (',' == string[i]) {
+            user_end = i - 1;
 
-                    int followee_name_length = user_end - user_begin + 1;
-                    char *followee_name = calloc(followee_name_length + 1, sizeof(char));
-                    strncpy(followee_name, &string[user_begin], followee_name_length);
+            int followee_name_length = user_end - user_begin + 1;
+            char *followee_name = calloc(followee_name_length + 1, sizeof(char));
+            strncpy(followee_name, &string[user_begin], followee_name_length);
 
-                    follow_user(user_name, followee_name);
+            follow_user(user_name, followee_name);
 
-                    free(followee_name);
+            free(followee_name);
 
-                    user_begin = i + 1;
-                }
-            }
-            if(user_name_allocated) {
-                free(user_name);
-            }
+            user_begin = i + 1;
         }
-        line++;
-        string = backup[line];
+    }
+    if (user_name_allocated) {
+        free(user_name);
     }
 }
 

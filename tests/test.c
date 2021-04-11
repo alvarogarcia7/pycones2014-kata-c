@@ -73,7 +73,9 @@ static void import_users_and_followees(void **state){
             "\0"
     };
 
-    import_contents(backup);
+    for (int i = 0; i < sizeof(backup) / sizeof(char *); ++i) {
+        import_contents(backup[i]);
+    }
 
     {
         char **followees = user_is_following("pepe");
