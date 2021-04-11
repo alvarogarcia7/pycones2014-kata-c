@@ -103,7 +103,7 @@ void import_contents(char **backup) {
             int user_begin = 0, user_end = 0;
             for (int i = 0; i < strlen(string); ++i) {
                 if (':' == string[i]) {
-                    user_end = i - 2;
+                    user_end = i - 1;
                     printf("%c %c\n", string[user_begin], string[user_end]);
                 }
             }
