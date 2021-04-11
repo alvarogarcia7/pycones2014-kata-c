@@ -1,11 +1,7 @@
 "/Users/alvaro/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/alvaro/Documents/project/pycones2014-kata
--- The C compiler identification is AppleClang 11.0.3.11030032
--- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc
--- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc - works
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Detecting C compile features
--- Detecting C compile features - done
--- Configuring done
--- Generating done
--- Build files have been written to: /Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug
+CMake Error at CMakeLists.txt:19 (add_subdirectory):
+  add_subdirectory given source "tests" which is not an existing directory.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/Users/alvaro/Documents/project/pycones2014-kata/cmake-build-debug/CMakeFiles/CMakeOutput.log".
