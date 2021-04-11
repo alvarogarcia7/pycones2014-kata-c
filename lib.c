@@ -28,9 +28,18 @@ bool register_user(char *username) {
     max_index++;
     return true;
 }
-bool follow_user(char *username, char *who_to_follow){
 
+bool follow_user(char *username, char *who_to_follow){
+    for (int i = 0; i < MAX_USERS && i < max_index; ++i) {
+        if (strcmp(registered_users[i], username) == 0) {
+            follows[i] = realloc()
+            return true;
+        }
+    }
+    return false;
 }
+
 char **user_is_following(char *username){
+
 
 }
