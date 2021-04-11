@@ -2,6 +2,7 @@
 #include <stdbool.h>
 #include <string.h>
 #include <stdlib.h>
+#include <printf.h>
 
 #define MAX_USERS 100
 
@@ -13,12 +14,15 @@ int followees[MAX_USERS] = {0};
 void register_clear() {
     for (int i = 0; i < MAX_USERS && i < max_index; ++i) {
         free(registered_users[i]);
+        registered_users[i] = NULL;
     }
     for (int i = 0; i < MAX_USERS && i < max_index; ++i) {
         for (int j = 0; j < followees[i]; ++j) {
             free(follows[i][j]);
+            follows[i][j] = NULL;
         }
         free(follows[i]);
+        follows[i] = NULL;
     }
     for (int i = 0; i < MAX_USERS && i < max_index; ++i) {
         followees[i] = 0;
@@ -43,7 +47,7 @@ bool follow_user(char *username, char *who_to_follow) {
     for (int i = 0; i < MAX_USERS && i < max_index; ++i) {
         if (strcmp(registered_users[i], username) == 0) {
             int this_followee = followees[i];
-            follows[i] = realloc(follows[i], sizeof(char **) * (this_followee + 1 + 1));
+            follows[i] = realloc(follows[i], sizeof(char *) * (this_followee + 1 + 1));
             follows[i][this_followee] = calloc(strlen(who_to_follow) + 1, sizeof(char));
             strcpy(follows[i][this_followee], who_to_follow);
             follows[i][this_followee + 1] = NULL;
@@ -54,6 +58,13 @@ bool follow_user(char *username, char *who_to_follow) {
     return false;
 }
 
+
+void print_all_users() {
+    for (int i = 0; i < MAX_USERS && i < max_index; ++i) {
+        printf("Registered: '%s'\n", registered_users[i]);
+    }
+}
+
 char **user_is_following(char *username) {
     for (int i = 0; i < MAX_USERS && i < max_index; ++i) {
         if (strcmp(registered_users[i], username) == 0) {
@@ -61,4 +72,16 @@ char **user_is_following(char *username) {
         }
     }
     return NULL;
+}
+
+void print_debug_state(){
+    printf("Max index: %d\n", max_index);
+    for (int i = 0; i < MAX_USERS && i < max_index; ++i) {
+        printf("Registered: '%s'\n", registered_users[i]);
+        printf("\tFollows: ");
+        for (int j = 0; j < followees[i]; ++j) {
+            printf("'%s', ", follows[i][j]);
+        }
+        printf("\n");
+    }
 }
