@@ -14,7 +14,7 @@ static void canary_test(void **state) {
 }
 
 static void register_non_existing_username(void **state) {
-    assert_int_equal(true, register_username("pepe"));
+    assert_int_equal(true, register_user("pepe"));
 }
 
 int main(void) {
