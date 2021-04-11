@@ -5,7 +5,7 @@ set(CMAKE_C_STANDARD 99)
 
 # Add an library for the production classes
 add_library(lib
-        prod.c
+        lib.c
         )
 
 add_executable(exe
