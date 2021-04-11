@@ -5,4 +5,4 @@ Completed cmocka test setup from https://github.com/alvarogarcia7/c-simple-sessi
 Executed first test 
 
 Iteración I: 10 minutos
-    * Completed in 
+    * Completed in 12 minutes
