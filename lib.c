@@ -81,15 +81,15 @@ char **export_contents() {
         for (int j = 0; j < followees[i]; ++j) {
             line_size += strlen(follows[i][j]) + strlen(",");
         }
-        lines[i] = calloc(line_size+1, sizeof(char));
+        lines[i] = calloc(line_size + 1, sizeof(char));
 
-        strcpy(lines[i]+strlen(lines[i]), registered_users[i]);
-        strcpy(lines[i]+strlen(lines[i]), ": ");
+        strcpy(lines[i] + strlen(lines[i]), registered_users[i]);
+        strcpy(lines[i] + strlen(lines[i]), ": ");
         for (int j = 0; j < followees[i]; ++j) {
-            strcpy(lines[i]+strlen(lines[i]), follows[i][j]);
-            strcpy(lines[i]+strlen(lines[i]), ",");
+            strcpy(lines[i] + strlen(lines[i]), follows[i][j]);
+            strcpy(lines[i] + strlen(lines[i]), ",");
         }
-        lines[i][strlen(lines[i])+1] = '\0';
+        lines[i][strlen(lines[i]) + 1] = '\0';
     }
 
     return lines;
@@ -97,9 +97,18 @@ char **export_contents() {
 
 
 void import_contents(char **backup) {
-    int line = 0;
-    while(strlen(backup[line]) > 0){
-        line++;
+    char *string = backup[line];
+    while (strlen(string) > 0) {
+        {
+            int user_begin = 0, user_end = 0;
+            for (int i = 0; i < strlen(string); ++i) {
+                if (':' == string[i]) {
+                    user_end = i - 2;
+                }
+                printf("%c %c\n", string[user_begin], string[user_end]);
+            }
+        }
+        string++;
     }
 }
 
