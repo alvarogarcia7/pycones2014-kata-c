@@ -9,3 +9,6 @@ Iteración I: 10 minutos
     
 Iteration II: 20 minutes
     * Completed in 37 minutes. + 51 minutes (defect) = 88 minutes.
+    
+Iteration III: 20 minutes
+    * Completed in ~45 minutes.
