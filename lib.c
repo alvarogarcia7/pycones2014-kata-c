@@ -1,6 +1,7 @@
 #include "lib.h"
 #include <stdbool.h>
 #include <string.h>
+#include <stdlib.h>
 
 #define MAX_USERS 100
 
@@ -13,6 +14,7 @@ bool register_user(char *username) {
             return false;
         }
     }
-    strcpy(registered_users[i], username);
+//    registered_users[i] = calloc(strlen(username) + 1, sizeof(char));
+//    strcpy(registered_users[i], username);
     return true;
 }
