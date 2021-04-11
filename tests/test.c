@@ -24,6 +24,12 @@ static void register_existing_username(void **state) {
     assert_int_equal(false, register_user("pepe"));
 }
 
+static void follow_another_user(void **state) {
+    register_clear();
+    assert_int_equal(true, ("pepe"));
+    assert_int_equal(false, register_user("pepe"));
+}
+
 int main(void) {
     const struct CMUnitTest tests[] = {
             cmocka_unit_test(canary_test)
