@@ -108,7 +108,9 @@ void import_contents(char **backup) {
                     char *user_name = calloc(user_end - user_begin + 1 + 1, sizeof(char));
                     strncpy(user_name, &string[user_begin], user_end - user_begin + 1);
 
-                    printf("'%s'\n", user_name);
+                    register_user(user_name);
+
+                    free(user_name);
                 }
             }
         }
