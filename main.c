@@ -35,6 +35,7 @@ int main(int argc, char **argv) {
     if (argc >= 3 && strcmp(argv[2], "f") == 0 ){
         follow_user(argv[1], argv[3]);
         char **lines = export_contents();
+        print_debug_state();
         int i =0;
         while(lines[i] != NULL){
             printf("%s\n", lines[i]);
