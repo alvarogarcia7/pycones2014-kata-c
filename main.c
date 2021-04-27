@@ -63,7 +63,7 @@ int main(int argc, char **argv) {
         int i = 0;
         printf("User %s follows:\n", argv[3]);
         while (result[i] != NULL) {
-            printf("%s\n", result[i]);
+            printf("  * %s\n", result[i]);
             i++;
         }
         export = false;
