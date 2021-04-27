@@ -49,16 +49,24 @@ int export_to_file(const char *FILENAME) {
 int main(int argc, char **argv) {
     bool export = true;
     char *filename = argv[1];
-    printf("Using export file: %s\n", filename);
+    printf("Using persistence file: %s\n", filename);
     import_from_file(filename);
     if (argc == 5 && strcmp(argv[3], "follow") == 0) {
         register_user(argv[2]);
         printf("%s follows %s\n", argv[2], argv[4]);
         follow_user(argv[2], argv[4]);
-    } else if(strcmp(argv[2], "show") == 0) {
+    } else if (strcmp(argv[2], "show") == 0) {
         print_debug_state();
         export = false;
-    } else if(strcmp(argv[3], "clear") == 0){
+    } else if (strcmp(argv[3], "i_follow") == 0) {
+        char **result = user_is_following(argv[2]);
+        int i = 0;
+        while (result[i] != NULL) {
+            printf("%s\n", result[i]);
+            i++;
+        }
+        export = false;
+    } else if (strcmp(argv[3], "clear") == 0) {
         register_clear();
     } else if (strcmp(argv[1], "-h") == 0) {
         printf("Usage: %s [-h] export_file user [command command_parameters] \n", argv[0]);
