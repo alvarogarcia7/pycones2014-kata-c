@@ -32,7 +32,7 @@ int import_from_file(const char *FILENAME) {
 int main(int argc, char **argv) {
 
     import_from_file("../export.db");
-    if (argc >= 3 && strcmp(argv[2], "f") == 0 ){
+    if (argc >= 4 && strcmp(argv[2], "f") == 0 ){
         follow_user(argv[1], argv[3]);
         char **lines = export_contents();
         print_debug_state();
