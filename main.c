@@ -48,7 +48,9 @@ int export_to_file(const char *FILENAME) {
 
 int main(int argc, char **argv) {
     bool some_command_found = true;
-    import_from_file("../export.db");
+    char *filename = "../export.db";
+    printf("Using export file: %s\n", filename);
+    import_from_file(filename);
     if (argc >= 4 && strcmp(argv[2], "f") == 0) {
         follow_user(argv[1], argv[3]);
     } else if (strcmp(argv[1], "-h") == 0) {
@@ -59,7 +61,7 @@ int main(int argc, char **argv) {
         some_command_found = false;
     }
     if (some_command_found) {
-        export_to_file("../export.db");
+        export_to_file(filename);
     }
     return 0;
 }
