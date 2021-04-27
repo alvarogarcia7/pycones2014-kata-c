@@ -48,13 +48,13 @@ int export_to_file(const char *FILENAME) {
 
 int main(int argc, char **argv) {
     bool some_command_found = true;
-    char *filename = "../export.db";
+    char *filename = argv[1];
     printf("Using export file: %s\n", filename);
     import_from_file(filename);
-    if (argc >= 4 && strcmp(argv[2], "f") == 0) {
-        follow_user(argv[1], argv[3]);
+    if (argc >= 5 && strcmp(argv[3], "f") == 0) {
+        follow_user(argv[2], argv[4]);
     } else if (strcmp(argv[1], "-h") == 0) {
-        printf("Usage: %s [-h] user [command command_parameters] \n", argv[0]);
+        printf("Usage: %s [-h] export_file user [command command_parameters] \n", argv[0]);
         printf("-h: Show this help\n");
         printf("f: Follow. Usage 'f $WHO_TO_FOLLOW' \n");
     } else {
