@@ -51,18 +51,16 @@ int export_to_file(const char *FILENAME) {
 }
 
 int main(int argc, char **argv) {
-
+    bool some_command_found = true;
     import_from_file("../export.db");
     if (argc >= 4 && strcmp(argv[2], "f") == 0 ){
         follow_user(argv[1], argv[3]);
-        char **lines = export_contents();
-        print_debug_state();
-        int i =0;
-        while(lines[i] != NULL){
-            printf("%s\n", lines[i]);
-            i++;
-        }
     }
-    export_to_file("../export.db");
+    else {
+        some_command_found = false;
+    }
+    if(some_command_found) {
+        export_to_file("../export.db");
+    }
     return 0;
 }
