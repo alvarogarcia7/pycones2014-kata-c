@@ -18,3 +18,7 @@ Iteration III: 20 minutes
 Until now, dedicated 145 minutes, for a limit of 50 minutes.
   * Current performance is 2.9X slower than the limit.
 
+Iteration IV: 30 minutes
+  * Completed in 40 minutes
+  * Not HTTP Delivery, but CLI one
+
