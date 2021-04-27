@@ -51,14 +51,14 @@ int main(int argc, char **argv) {
     char *filename = argv[1];
     printf("Using export file: %s\n", filename);
     import_from_file(filename);
-    if (argc == 5 && strcmp(argv[3], "f") == 0) {
+    if (argc == 5 && strcmp(argv[3], "follow") == 0) {
         register_user(argv[2]);
         printf("%s follows %s\n", argv[2], argv[4]);
         follow_user(argv[2], argv[4]);
-    } else if(strcmp(argv[3], "s") == 0) {
+    } else if(strcmp(argv[3], "show") == 0) {
         print_debug_state();
         export = false;
-    } else if(strcmp(argv[3], "c") == 0){
+    } else if(strcmp(argv[3], "clear") == 0){
         register_clear();
     } else if (strcmp(argv[1], "-h") == 0) {
         printf("Usage: %s [-h] export_file user [command command_parameters] \n", argv[0]);
