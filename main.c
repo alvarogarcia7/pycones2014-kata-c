@@ -29,6 +29,27 @@ int import_from_file(const char *FILENAME) {
     return 0;
 }
 
+int export_to_file(const char *FILENAME) {
+    FILE *fp = fopen(FILENAME, "w");
+    if (!fp)
+    {
+        fprintf(stderr, "Error opening file '%s'\n", FILENAME);
+        return EXIT_FAILURE;
+    }
+
+    char **results = export_contents();
+
+    int i = 0;
+    while (results[i] != NULL)
+    {
+        fprintf(fp, "%s", results[i]);
+        i++;
+    }
+
+    fclose(fp);
+    return 0;
+}
+
 int main(int argc, char **argv) {
 
     import_from_file("../export.db");
@@ -42,5 +63,6 @@ int main(int argc, char **argv) {
             i++;
         }
     }
+    export_to_file("../export.db");
     return 0;
 }
