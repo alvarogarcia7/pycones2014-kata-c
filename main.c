@@ -65,7 +65,11 @@ int main(int argc, char **argv) {
         printf("-h: Show this help\n");
         printf("f: Follow. Usage 'f $WHO_TO_FOLLOW' \n");
     } else {
-        printf("Could not understand that command.\n");
+        printf("Could not understand that command.");
+        for (int i = 1; i < argc; ++i) {
+            printf("%s ", argv[i]);
+        }
+        printf("\n");
         export = false;
     }
     if (export) {
