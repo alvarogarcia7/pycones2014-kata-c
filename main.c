@@ -55,7 +55,7 @@ int main(int argc, char **argv) {
         register_user(argv[2]);
         printf("%s follows %s\n", argv[2], argv[4]);
         follow_user(argv[2], argv[4]);
-    } else if(strcmp(argv[3], "show") == 0) {
+    } else if(strcmp(argv[2], "show") == 0) {
         print_debug_state();
         export = false;
     } else if(strcmp(argv[3], "clear") == 0){
