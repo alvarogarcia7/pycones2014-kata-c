@@ -61,6 +61,7 @@ int main(int argc, char **argv) {
     } else if (strcmp(argv[3], "i_follow") == 0) {
         char **result = user_is_following(argv[2]);
         int i = 0;
+        printf("User %s follows:\n", argv[3]);
         while (result[i] != NULL) {
             printf("%s\n", result[i]);
             i++;
