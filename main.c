@@ -58,6 +58,7 @@ int main(int argc, char **argv) {
         printf("-h: Show this help\n");
         printf("f: Follow. Usage 'f $WHO_TO_FOLLOW' \n");
     } else {
+        printf("Could not understand that command.\n");
         some_command_found = false;
     }
     if (some_command_found) {
