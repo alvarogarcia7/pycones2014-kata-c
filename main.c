@@ -47,7 +47,7 @@ int export_to_file(const char *FILENAME) {
 }
 
 int main(int argc, char **argv) {
-    bool some_command_found = true;
+    bool export = true;
     char *filename = argv[1];
     printf("Using export file: %s\n", filename);
     import_from_file(filename);
@@ -55,17 +55,20 @@ int main(int argc, char **argv) {
         register_user(argv[2]);
         printf("%s follows %s\n", argv[2], argv[4]);
         follow_user(argv[2], argv[4]);
-    } else if(strcmp(argv[3], "s") == 0){
+    } else if(strcmp(argv[3], "s") == 0) {
         print_debug_state();
+        export = false;
+    } else if(strcmp(argv[3], "c") == 0){
+        register_clear();
     } else if (strcmp(argv[1], "-h") == 0) {
         printf("Usage: %s [-h] export_file user [command command_parameters] \n", argv[0]);
         printf("-h: Show this help\n");
         printf("f: Follow. Usage 'f $WHO_TO_FOLLOW' \n");
     } else {
         printf("Could not understand that command.\n");
-        some_command_found = false;
+        export = false;
     }
-    if (some_command_found) {
+    if (export) {
         export_to_file(filename);
     }
     return 0;
