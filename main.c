@@ -33,7 +33,7 @@ int main(int argc, char **argv) {
 
     import_from_file("../export.db");
     if (argc >= 3 && strcmp(argv[2], "f") == 0 ){
-        follow_user(argv[1], argv[2]);
+        follow_user(argv[1], argv[3]);
         char **lines = export_contents();
         int i =0;
         while(lines[i] != NULL){
@@ -41,6 +41,5 @@ int main(int argc, char **argv) {
             i++;
         }
     }
-    printf("Hello, World!\n");
     return 0;
 }
