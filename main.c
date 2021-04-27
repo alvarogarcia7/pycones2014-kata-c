@@ -52,7 +52,7 @@ int main(int argc, char **argv) {
     printf("Using export file: %s\n", filename);
     import_from_file(filename);
     if (argc >= 5 && strcmp(argv[3], "f") == 0) {
-        printf("Following\n");
+        printf("%s follows %s\n", argv[2], argv[4]);
         follow_user(argv[2], argv[4]);
     } else if (strcmp(argv[1], "-h") == 0) {
         printf("Usage: %s [-h] export_file user [command command_parameters] \n", argv[0]);
