@@ -38,6 +38,7 @@ int main(int argc, char **argv) {
         int i =0;
         while(lines[i] != NULL){
             printf("%s\n", lines[i]);
+            i++;
         }
     }
     printf("Hello, World!\n");
